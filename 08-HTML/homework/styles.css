@@ -1,0 +1,36 @@
+body{
+    background-image: url('img/img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divClass{
+    text-align: center;
+    color: #fff;
+}
+
+img{
+    width: 400px;
+}
+
+h1,h3,h4{
+    text-align: center;
+    color:white;
+}
+
+h1{
+    color: #fff;
+}
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;background: cornflowerblue;
+    padding: 50px;
+    border: crimson 15px solid;
+    margin: 0 auto;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
