@@ -2,6 +2,8 @@ body{
     background-image: url('img/img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .divClass{
@@ -22,12 +24,17 @@ h1{
     color: #fff;
 }
 
-#thirdDiv{
+#divClass{
     height: 600px;
     width: 500px;background: cornflowerblue;
     padding: 50px;
     border: crimson 15px solid;
-    margin: 0 auto;
+    margin: auto;
+}
+
+#thirdDiv ul{
+    text-align: center;
+    color: wheat;
 }
 
 #spanId{
